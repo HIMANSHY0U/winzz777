@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/assets/uni.25f4f1c2.css">
+
+    <meta charset="UTF-8" />
+    <meta name="theme-color" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" href="/assets/logo1-HoNZw40t.png" />
+    <link rel="preconnect" href="https://storage.googleapis.com" />
+    <link rel="preconnect" href="https://game-api.777spinz.com" />
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+    <!-- <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script> -->
+    <!-- <title>K9</title> -->
+    <title>WINZZ777</title>
+    <!-- <title>Winzz777</title> -->
+    <!--preload-links-->
+    <!--app-context-->
+    <script type="module" crossorigin src="/assets/index-DMsdlv-S.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CaDPM2pv.css">
+</head>
+
+<body>
+    <div id="app">
+        <!--app-html-->
+    </div>
+
+    <script>
+        window.Telegram.WebApp.ready()
+        const WebApp = window.Telegram.WebApp;
+        console.log("initData", WebApp.initData);
+        localStorage.setItem("TgInitData", WebApp.initData);
+        // if (WebApp.initDataUnsafe.user) {
+        //   console.log(WebApp.initDataUnsafe);
+
+        //   initData = `query_id=${
+        //     WebApp.initDataUnsafe.query_id
+        //   }&user=${encodeURIComponent(
+        //     JSON.stringify(WebApp.initDataUnsafe.user)
+        //   )}&auth_date=${WebApp.initDataUnsafe.auth_date}&hash=${
+        //     WebApp.initDataUnsafe.hash
+        //   }`;
+        //   localStorage.setItem("TgInitData", JSON.stringify(initData));
+        // }
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        let fbId = "";
+        const search = new URLSearchParams(window.location.search);
+        fbId = search.get("fid");
+        if (!fbId) {
+            fbId = localStorage.getItem("fbId");
+            if (!fbId) {
+                fbId = "543414502000542";
+            }
+        }
+
+        localStorage.setItem("fbId", fbId);
+        // const fbId = '543414502000542';
+        // const fbId = "575796885034758";
+        !(function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) :
+                    n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = "2.0";
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        })(
+            window,
+            document,
+            "script",
+            "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", fbId);
+        fbq("track", "PageView");
+        window.fbq = fbq;
+
+        const node = document.createElement("noscript");
+        node.innerHTML = `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${fbId}&ev=PageView&noscript=1">`;
+        document.body.appendChild(node);
+    </script>
+    <!-- End Facebook Pixel Code -->
+    <!-- Start of LiveChat (www.livechat.com) code -->
+    <!-- <script>
+  window.__lc = window.__lc || {};
+  window.__lc.license = 19034769;
+  window.__lc.integration_name = "manual_onboarding";
+  window.__lc.product_name = "livechat";
+  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/19034769/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript> -->
+    <!-- End of LiveChat code -->
+</body>
+
+</html>
